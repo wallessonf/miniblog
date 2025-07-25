@@ -1,0 +1,51 @@
+.login {
+  text-align: center;
+}
+
+.login p {
+  margin-bottom: 3em;
+  color: #aaa;
+}
+
+.login label {
+  margin-left: 26%;
+}
+.login input {
+  width: 70%;
+}
+
+.login * {
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .login * {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .login * {
+    margin-bottom: 1.5em;
+  }
+  .login h1 {
+    margin-bottom: 1em;
+  }
+
+  .login label {
+    margin-left: 0;
+  }
+  .login input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .login * {
+    margin-bottom: 0.5em;
+  }
+
+  .login p {
+    margin-bottom: 1em;
+  }
+}

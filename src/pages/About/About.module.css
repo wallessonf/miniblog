@@ -1,0 +1,44 @@
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.about p {
+  line-height: 2em;
+  margin: 1em 20px;
+  color: #aaa;
+  margin-bottom: 2em;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .about p {
+    margin: 1em 100px;
+    font-size: 1.1em;
+    line-height: 2.2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about p {
+    margin: 1em 300px;
+    font-size: 1.2em;
+    line-height: 2.5em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about p {
+    margin: 1em 500px;
+    line-height: 3em;
+  }
+}
+
+.about a {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 15px;
+}
