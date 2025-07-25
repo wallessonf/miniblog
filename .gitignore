@@ -7,10 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Diretórios de build e dependências
 node_modules
 dist
 dist-ssr
 *.local
+
+# Arquivos de ambiente (NÃO subir pro GitHub)
+.env
+.env.local
+.env.*.local
 
 # Editor directories and files
 .vscode/*
